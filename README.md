@@ -36,6 +36,6 @@ The system consists of 2 main components:
 ## Tech Stack
 
 **Frontend:** JavaScript, Chrome Extensions API  
-**Backend:** Node.js / Python (LLM server)  
-**ML:** RAG Pipeline + LLM (OpenAI / Local Model)  
+**Backend:** Flask / Python (LLM server)  
+**ML:** RAG Pipeline + LLM ( Local Model)  
 **Data Source:** YouTube Transcript
