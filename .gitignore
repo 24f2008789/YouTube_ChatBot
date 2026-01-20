@@ -1,29 +1,20 @@
-# Python environment
-venv/
-.env/
-*.pyc
+# Python
 __pycache__/
-.cache/
+*.pyc
+*.pyo
+*.pyd
+*.env
 
-# Node modules (if using frontend npm stuff)
-node_modules/
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
 
-# OS specific
+# IDEs
+.vscode/
+.idea/
+
+# OS files
 .DS_Store
 Thumbs.db
-
-# VS Code settings
-.vscode/
-
-# Secrets and environment variables
-.env.local
-.env.development
-.env.production
-
-# Build artifacts
-dist/
-build/
-
-# Logs
-*.log
-logs/
