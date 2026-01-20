@@ -1,0 +1,22 @@
+{
+    "name": "Youtube Chatbot",
+    "description": "An Youtube Chatbot which will help to understand the video properly",
+    "version": "0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "chat.html",
+        "default_icon" : "chatbot.jpg"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://www.youtube.com/*",
+        "http://localhost:5000/*"
+    ],
+    "content_scripts": [{
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["script.js"]
+    }]
+}
